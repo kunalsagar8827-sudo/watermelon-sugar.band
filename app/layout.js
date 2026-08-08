@@ -1,4 +1,4 @@
-import { Playfair_Display, Caveat, Manrope } from "next/font/google";
+﻿import { Playfair_Display, Caveat, Manrope } from "next/font/google";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -97,6 +97,11 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en" className={`${playfair.variable} ${caveat.variable} ${manrope.variable}`}>
+
+<head>
+  <meta name="google-site-verification" content="HQJYE5etdXRdMLCEprdvL0BM9J2dK-7fnUoXAmRhZt0" />
+</head>
+
       <body className="font-body bg-night text-cream antialiased">
         <div className="grain" />
         {children}
