@@ -24,7 +24,7 @@ const SITE_URL = "https://watermelonsugar.band";
 export const metadata = {
   metadataBase: new URL(SITE_URL),
 verification: {
-    google: "HQJYE5etdXRdMLCEprdvL0BM9J2dK-7fnUoXAmRhZt0",
+    google: "HQJYE5etdXRdML",
   },
 
   title: {
