@@ -23,6 +23,10 @@ const SITE_URL = "https://watermelonsugar.band";
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
+verification: {
+    google: "HQJYE5etdXRdMLCEprdvL0BM9J2dK-7fnUoXAmRhZt0",
+  },
+
   title: {
     default: "Watermelon Sugar Band | Auditions Open — Meerut, India",
     template: "%s | Watermelon Sugar Band",
@@ -97,10 +101,6 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en" className={`${playfair.variable} ${caveat.variable} ${manrope.variable}`}>
-
-<head>
-  <meta name="google-site-verification" content="HQJYE5etdXRdMLCEprdvL0BM9J2dK-7fnUoXAmRhZt0" />
-</head>
 
       <body className="font-body bg-night text-cream antialiased">
         <div className="grain" />
